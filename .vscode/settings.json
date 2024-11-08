@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svelte-kit": true,
+    "**/.svn": true,
+    "**/.turbo": true,
+    "**/.vscode": true,
+    "**/CVS": true,
+    "**/node_modules": true,
+    "**/Thumbs.db": true
+  },
+  "explorerExclude.backup": {},
+  "explorer.excludeGitIgnore": false
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@repo/ui": ["./src/"],
+      "@repo/ui/*": ["./src/*"]
+    }
+  }
+}

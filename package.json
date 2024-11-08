@@ -1,0 +1,26 @@
+{
+  "name": "sc",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "ui:add": "cd packages/ui && bunx shadcn-svelte@next add",
+    "ui:update": "cd packages/ui && bun run scripts/updateExports.ts",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{js,ts,svelte,md}\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "@types/bun": "1.1.13",
+    "turbo": "^2.2.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.1.25",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
