@@ -1,12 +1,5 @@
 # Turborepo Bun Template with SvelteKit, TailwindCSS and Shadcn-svelte
 
-- apps
-  - web
-  - docs
-- packages
-  - @repo/ui
-  - @repo/eslint-config
-
 ### Install dependencies
 
 `Bun install`: Install all dependencies
